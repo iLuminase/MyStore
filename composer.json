@@ -27,7 +27,7 @@
             "App\\Http\\Services\\": "app/Http/Services/"
         },
         "files": [
-            "app/Helper/Helper.php"
+            "app/Helpers/Helper.php"
         ]
     },
     "autoload-dev": {
