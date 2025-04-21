@@ -1,5 +1,3 @@
-<?php
-
 
 @extends('admin.main')
 
@@ -12,12 +10,13 @@
                 <th scope="col">Tên Danh Mục</th>
                 <th scope="col">Kích Hoạt</th>
                 <th scope="col">Cập nhật</th>
-                <th scope="col">&nbsp;</th>
+                <th scope="col" style="width: 100px;">&nbsp;</th>
             </tr>
         </thead>
 
         <tbody>
-
+            {!! \App\Helpers\Helper::menu($menus) !!}
         </tbody>
+
     </table>
 @endsection
